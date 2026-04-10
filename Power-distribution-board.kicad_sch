@@ -11957,7 +11957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cf4e3e0-a506-4ba2-9ce5-9ddeccd06c3c")
-		(property "Reference" "J9"
+		(property "Reference" "J?"
 			(at 394.335 196.85 0)
 			(effects
 				(font
@@ -12009,7 +12009,7 @@
 		(instances
 			(project "Power-distribution-board"
 				(path "/99d8dfce-413e-440e-9a66-3580ccaf9f1d"
-					(reference "J9")
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -13239,7 +13239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8426de6b-feb5-4841-a692-7ea21b042c8e")
-		(property "Reference" "Main1"
+		(property "Reference" "Main"
 			(at 40.386 39.878 0)
 			(effects
 				(font
@@ -13320,7 +13320,7 @@
 		(instances
 			(project ""
 				(path "/99d8dfce-413e-440e-9a66-3580ccaf9f1d"
-					(reference "Main1")
+					(reference "Main")
 					(unit 1)
 				)
 			)
@@ -14289,7 +14289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a411706d-1572-4028-9fd9-ab9b6913d0d9")
-		(property "Reference" "Aux1"
+		(property "Reference" "Aux"
 			(at 35.306 138.938 0)
 			(effects
 				(font
@@ -14370,7 +14370,7 @@
 		(instances
 			(project "Power-distribution-board"
 				(path "/99d8dfce-413e-440e-9a66-3580ccaf9f1d"
-					(reference "Aux1")
+					(reference "Aux")
 					(unit 1)
 				)
 			)
@@ -14817,7 +14817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b03259d3-108c-4033-8381-1846baf24038")
-		(property "Reference" "15-5VRM1"
+		(property "Reference" "15-5VRM"
 			(at 387.35 163.83 0)
 			(effects
 				(font
@@ -14928,7 +14928,7 @@
 		(instances
 			(project "Power-distribution-board"
 				(path "/99d8dfce-413e-440e-9a66-3580ccaf9f1d"
-					(reference "15-5VRM1")
+					(reference "15-5VRM")
 					(unit 1)
 				)
 			)
