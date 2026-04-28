@@ -5526,6 +5526,16 @@
 		)
 		(uuid e04588df-5f08-42be-a80a-1035ba0fa587)
 	)
+	(text "I2C Address: 0x45"
+		(exclude_from_sim no)
+		(at 168.402 336.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07c64a8b-8f7e-4e30-8b24-16ad627c7053")
+	)
 	(text "from BATTERY"
 		(exclude_from_sim no)
 		(at 281.432 166.37 0)
@@ -5535,6 +5545,46 @@
 			)
 		)
 		(uuid "24cfeb76-9579-4e9f-8c61-9da18579c935")
+	)
+	(text "I2C Address: 0x41"
+		(exclude_from_sim no)
+		(at 71.882 295.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "254a4a06-162e-4337-bbe4-18c65001d0c7")
+	)
+	(text "I2C Address: 0x44"
+		(exclude_from_sim no)
+		(at 165.608 291.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28ec476a-7ec3-4938-aa25-8aa3d90950d7")
+	)
+	(text "1 MHz cutoff frequency"
+		(exclude_from_sim no)
+		(at 110.998 245.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b7b9ec7-f773-432f-aa75-b2d1a7aacded")
+	)
+	(text "I2C Address: 0x42"
+		(exclude_from_sim no)
+		(at 72.644 335.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46078e35-8ae6-41e1-a0a8-6ec2337c342b")
 	)
 	(text "I2C Address: 0x46"
 		(exclude_from_sim no)
@@ -5566,6 +5616,16 @@
 			(justify left)
 		)
 		(uuid "56517d20-b05e-49ef-95e0-bdc240c4bb47")
+	)
+	(text "I2C Address: 0x43"
+		(exclude_from_sim no)
+		(at 166.624 241.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58ae3839-523b-4b41-a230-bac3e2756bff")
 	)
 	(text "CURRENT SENSORS\n"
 		(exclude_from_sim no)
@@ -11174,7 +11234,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 95.25 287.0199 0)
 			(effects
 				(font
@@ -11903,7 +11963,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 204.47 223.52 90)
 			(effects
 				(font
@@ -12307,7 +12367,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 105.41 259.08 90)
 			(effects
 				(font
@@ -12666,7 +12726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 97.79 242.5699 0)
 			(effects
 				(font
@@ -12725,10 +12785,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2db255c0-1571-4c14-982d-e8bfaeb1aba0")
 		(property "Reference" "C19"
-			(at 201.93 220.9799 0)
+			(at 191.77 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12736,8 +12795,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 201.93 223.5199 0)
+		(property "Value" "0.1u"
+			(at 191.77 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +13205,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 203.2 270.51 90)
 			(effects
 				(font
@@ -13427,7 +13486,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 193.04 287.0199 0)
 			(effects
 				(font
@@ -13837,8 +13896,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1"
-			(at 95.504 225.298 0)
+		(property "Value" "0.1u"
+			(at 94.742 225.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14545,7 +14604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 193.04 332.7399 0)
 			(effects
 				(font
@@ -14615,7 +14674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 194.31 240.0299 0)
 			(effects
 				(font
@@ -14752,7 +14811,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 204.47 212.09 90)
 			(effects
 				(font
@@ -15165,7 +15224,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 105.41 270.51 90)
 			(effects
 				(font
@@ -15223,10 +15282,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74c60a47-e262-41b4-b768-e0ba486dc360")
 		(property "Reference" "C23"
-			(at 200.66 313.6899 0)
+			(at 189.738 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15234,8 +15292,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 200.66 316.2299 0)
+		(property "Value" "0.1u"
+			(at 189.738 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +15936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 95.25 334.0099 0)
 			(effects
 				(font
@@ -17930,10 +17988,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb7f03cf-9177-48d6-92a3-5ed4cb85d940")
 		(property "Reference" "C17"
-			(at 102.87 314.9599 0)
+			(at 92.456 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17941,8 +17998,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 102.87 317.4999 0)
+		(property "Value" "0.1u"
+			(at 92.456 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18408,7 +18465,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 105.41 317.5 90)
 			(effects
 				(font
@@ -18671,10 +18728,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1e677fc-9969-40b4-a473-2a64e0041ef8")
 		(property "Reference" "C21"
-			(at 200.66 267.9699 0)
+			(at 189.992 267.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18682,8 +18738,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 200.66 270.5099 0)
+		(property "Value" "0.1u"
+			(at 189.992 270.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,7 +19172,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 203.2 259.08 90)
 			(effects
 				(font
@@ -19278,7 +19334,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 203.2 304.8 90)
 			(effects
 				(font
@@ -19482,7 +19538,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 203.2 316.23 90)
 			(effects
 				(font
@@ -19713,24 +19769,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6498627-acae-4a93-b33d-a8a4bdfd1e1c")
 		(property "Reference" "C1"
-			(at 179.07 27.9401 0)
+			(at 175.514 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 179.07 25.4001 0)
+		(property "Value" "0.1u"
+			(at 175.514 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -20259,7 +20314,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 105.41 306.07 90)
 			(effects
 				(font
@@ -20384,10 +20439,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1b76792-0071-4a82-9de3-7aff41390780")
 		(property "Reference" "C12"
-			(at 102.87 267.9699 0)
+			(at 92.202 267.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20395,8 +20449,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 102.87 270.5099 0)
+		(property "Value" "0.1u"
+			(at 92.202 270.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
