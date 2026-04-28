@@ -5059,16 +5059,6 @@
 		)
 		(uuid "07c64a8b-8f7e-4e30-8b24-16ad627c7053")
 	)
-	(text "from BATTERY"
-		(exclude_from_sim no)
-		(at 281.432 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "24cfeb76-9579-4e9f-8c61-9da18579c935")
-	)
 	(text "I2C Address: 0x41"
 		(exclude_from_sim no)
 		(at 71.882 295.148 0)
@@ -5189,17 +5179,6 @@
 			)
 		)
 		(uuid "be367650-6f74-4098-b74e-84c9ee876ced")
-	)
-	(text "Note: Unfinished\n\nTO DO:\nBATTERY VOLTAGE MONITOR\nCONNECTIONS TO AUXILIARY BATTERY\nESP CIRCUIT\n\n"
-		(exclude_from_sim no)
-		(at 16.51 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6a2d36d-1397-4641-ae61-a481fcc00fe5")
 	)
 	(text "USB Stackup\n"
 		(exclude_from_sim no)
@@ -9240,7 +9219,7 @@
 		)
 		(uuid "06e8f14d-c0ba-4acf-ae22-6df9923d1d1d")
 	)
-	(label "5VOUT"
+	(label "5V"
 		(at 430.53 167.64 0)
 		(effects
 			(font
@@ -9310,7 +9289,7 @@
 		)
 		(uuid "1c0dddf7-9678-404e-a996-bbc29c78f844")
 	)
-	(label "5VOUT"
+	(label "5V"
 		(at 445.77 36.83 0)
 		(effects
 			(font
@@ -9340,7 +9319,27 @@
 		)
 		(uuid "1f900b83-9295-426f-85d2-4a0e9c70a007")
 	)
-	(label "5VOUT"
+	(label "IC4"
+		(at 156.21 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ff8980d-1d2a-4ecb-a21b-62d9970c88c4")
+	)
+	(label "IC6"
+		(at 156.21 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "222bccc7-97b6-498f-887b-e5cf84fbdc9b")
+	)
+	(label "5V"
 		(at 311.15 87.63 180)
 		(effects
 			(font
@@ -9700,7 +9699,7 @@
 		)
 		(uuid "a7334cc0-3cfe-474b-a10d-82d7f8a15206")
 	)
-	(label "5VOUT"
+	(label "5V"
 		(at 360.68 274.32 180)
 		(effects
 			(font
@@ -11454,7 +11453,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".47uF"
+		(property "Value" ".47u"
 			(at 369.57 288.2899 0)
 			(effects
 				(font
@@ -14120,7 +14119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33uF"
+		(property "Value" "33u"
 			(at 422.91 289.5599 0)
 			(effects
 				(font
@@ -14260,7 +14259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "715 ohm"
+		(property "Value" "715"
 			(at 364.49 191.7699 0)
 			(effects
 				(font
@@ -16915,7 +16914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "240 ohm"
+		(property "Value" "240"
 			(at 389.89 176.5299 0)
 			(effects
 				(font
@@ -18044,7 +18043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1u"
 			(at 344.17 179.0699 0)
 			(effects
 				(font
