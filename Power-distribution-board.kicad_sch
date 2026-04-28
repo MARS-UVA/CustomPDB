@@ -5140,9 +5140,6 @@
 		)
 		(uuid "56517d20-b05e-49ef-95e0-bdc240c4bb47")
 	)
-	(text "15-5v buck converter\n"
-		(exclude_from_sim no)
-		(at 377.698 156.972 0)
 	(text "I2C Address: 0x43"
 		(exclude_from_sim no)
 		(at 166.624 241.554 0)
@@ -5162,7 +5159,6 @@
 			)
 		)
 		(uuid "793c6bcc-b89c-4bfc-a7e6-e15af5b085bd")
-		(uuid "58ae3839-523b-4b41-a230-bac3e2756bff")
 	)
 	(text "CURRENT SENSORS\n"
 		(exclude_from_sim no)
@@ -5225,6 +5221,16 @@
 			)
 		)
 		(uuid "da9a7aec-3b71-457a-a5e3-d222d410c9d6")
+	)
+	(text "15-5v buck converter\n"
+		(exclude_from_sim no)
+		(at 378.714 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0825c97-ed0b-40cc-ac32-c115a158aa08")
 	)
 	(text_box ""
 		(exclude_from_sim no)
