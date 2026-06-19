@@ -9319,26 +9319,6 @@
 		)
 		(uuid "1f900b83-9295-426f-85d2-4a0e9c70a007")
 	)
-	(label "IC4"
-		(at 156.21 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ff8980d-1d2a-4ecb-a21b-62d9970c88c4")
-	)
-	(label "IC6"
-		(at 156.21 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "222bccc7-97b6-498f-887b-e5cf84fbdc9b")
-	)
 	(label "5V"
 		(at 311.15 87.63 180)
 		(effects
