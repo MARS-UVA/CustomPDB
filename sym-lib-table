@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TM1637")(type "KiCad")(uri "${KIPRJMOD}/cad files/KiCADv6/TM1637.kicad_sym")(options "")(descr ""))
+  (lib (name "PDB_symbols")(type "KiCad")(uri "${KIPRJMOD}/cad files/KiCADv6/PDB_symbols.kicad_sym")(options "")(descr ""))
+)
