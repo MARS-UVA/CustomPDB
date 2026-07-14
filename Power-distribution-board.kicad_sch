@@ -11727,7 +11727,7 @@
 		)
 		(uuid "02357632-e497-46a1-8785-3ab8a8ea0d95")
 	)
-	(label "15VIN"
+	(label "BATP"
 		(at 267.97 194.31 180)
 		(effects
 			(font
@@ -11867,7 +11867,7 @@
 		)
 		(uuid "2a4a703d-71ef-47ce-8e80-1899ccbd368f")
 	)
-	(label "BAT+"
+	(label "BATP"
 		(at 212.09 302.26 0)
 		(effects
 			(font
@@ -12007,7 +12007,7 @@
 		)
 		(uuid "4e48c9f8-d53c-49b2-922c-615c9df96187")
 	)
-	(label "BAT+"
+	(label "BATP"
 		(at 115.57 299.72 0)
 		(effects
 			(font
@@ -12037,7 +12037,7 @@
 		)
 		(uuid "5a94e9c4-a112-4587-9f4f-ad83092cffa1")
 	)
-	(label "BAT+"
+	(label "BATP"
 		(at 214.63 209.55 0)
 		(effects
 			(font
@@ -12047,7 +12047,7 @@
 		)
 		(uuid "5da8fd3f-7457-43e5-83bb-e386f97f7be5")
 	)
-	(label "BAT+"
+	(label "BATP"
 		(at 114.3 255.27 0)
 		(effects
 			(font
@@ -12117,7 +12117,7 @@
 		)
 		(uuid "7af3f0fe-d19b-43aa-98cd-55a62d9bc478")
 	)
-	(label "BAT+"
+	(label "BATP"
 		(at 90.17 63.5 0)
 		(effects
 			(font
@@ -12157,7 +12157,7 @@
 		)
 		(uuid "843d4653-25e3-4bd5-9e63-3f399b5517be")
 	)
-	(label "BAT+"
+	(label "BATP"
 		(at 118.11 212.09 0)
 		(effects
 			(font
@@ -12177,7 +12177,7 @@
 		)
 		(uuid "8aca104f-4082-4d9d-9e73-c3af46770261")
 	)
-	(label "BAT+"
+	(label "BATP"
 		(at 213.36 256.54 0)
 		(effects
 			(font
@@ -12297,7 +12297,7 @@
 		)
 		(uuid "b68740f6-6dbc-465d-82d1-c898c364f105")
 	)
-	(label "BAT+"
+	(label "BATP"
 		(at 80.01 40.64 180)
 		(effects
 			(font
