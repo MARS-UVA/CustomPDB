@@ -200,7 +200,8 @@
         0.0,
         0.2,
         0.254,
-        0.5
+        0.5,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -524,9 +525,9 @@
         "microvia_drill": 0.1,
         "name": "3.3V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.45,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.4
       },
@@ -538,10 +539,22 @@
         "microvia_drill": 0.1,
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.45,
+        "track_width": 0.6,
         "via_diameter": 0.6,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "AUX",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
+        "via_diameter": 0.7,
         "via_drill": 0.4
       },
       {
@@ -552,9 +565,9 @@
         "microvia_drill": 0.1,
         "name": "BATP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.65,
+        "track_width": 4.0,
         "via_diameter": 0.6,
         "via_drill": 0.4
       },
@@ -562,14 +575,14 @@
         "clearance": 0.15,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
-        "microvia_diameter": 0.4,
+        "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.45,
-        "via_diameter": 0.6,
+        "track_width": 0.254,
+        "via_diameter": 0.7,
         "via_drill": 0.4
       },
       {
@@ -580,7 +593,7 @@
         "microvia_drill": 0.1,
         "name": "GPIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
@@ -608,6 +621,14 @@
       {
         "netclass": "5V",
         "pattern": "/5V"
+      },
+      {
+        "netclass": "AUX",
+        "pattern": "/AUX+"
+      },
+      {
+        "netclass": "AUX",
+        "pattern": "/AUX-"
       }
     ]
   },
