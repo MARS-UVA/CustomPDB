@@ -10,4 +10,5 @@
   (lib (name "PDB_symbols")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/PDB_symbols.kicad_sym")(options "")(descr ""))
   (lib (name "TM1637")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/TM1637.kicad_sym")(options "")(descr ""))
   (lib (name "Wago 60A")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/2026-09-14_18-16-58.kicad_sym")(options "")(descr "Wago 60A"))
+  (lib (name "3555-5")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/2026-09-28_19-39-27.kicad_sym")(options "")(descr "FUSE HOLDER 50A"))
 )
