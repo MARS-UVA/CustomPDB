@@ -11,4 +11,6 @@
   (lib (name "TM1637")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/TM1637.kicad_sym")(options "")(descr ""))
   (lib (name "Wago 60A")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/2026-09-14_18-16-58.kicad_sym")(options "")(descr "Wago 60A"))
   (lib (name "wago 20 A")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/2026-09-19_03-51-31.kicad_sym")(options "")(descr ""))
+  (lib (name "ACS37032LLZATR-065B3")(type "KiCad")(uri "${KIPRJMOD}/Symbols/ACS37032LLZATR-065B3.kicad_sym")(options "")(descr ""))
+  (lib (name "3555-2")(type "KiCad")(uri "${KIPRJMOD}/Symbols/2026-09-28_19-39-27.kicad_sym")(options "")(descr "Fuse"))
 )
