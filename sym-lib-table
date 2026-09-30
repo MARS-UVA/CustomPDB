@@ -11,4 +11,6 @@
   (lib (name "TM1637")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/TM1637.kicad_sym")(options "")(descr ""))
   (lib (name "Wago 60A")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/2026-09-14_18-16-58.kicad_sym")(options "")(descr "Wago 60A"))
   (lib (name "3555-5")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/2026-09-28_19-39-27.kicad_sym")(options "")(descr "FUSE HOLDER 50A"))
+  (lib (name "AP2112_3.3")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/2026-09-30_04-49-11.kicad_sym")(options "")(descr "3.3 LDO"))
+  (lib (name "XDMDK09A3")(type "KiCad")(uri "${KIPRJMOD}/Symbols/KiCADv6/2026-09-30_05-57-02.kicad_sym")(options "")(descr "led 3 digit"))
 )

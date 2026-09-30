@@ -547,10 +547,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 5.08)
-				(hide yes)
 				(name "2"
 					(effects
 						(font
@@ -566,10 +565,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(hide yes)
 				(name "3"
 					(effects
 						(font
@@ -585,10 +583,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(hide yes)
 				(name "4"
 					(effects
 						(font
@@ -604,10 +601,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 0 -10.16 0)
 				(length 5.08)
-				(hide yes)
 				(name "5"
 					(effects
 						(font
@@ -623,10 +619,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 0 -12.7 0)
 				(length 5.08)
-				(hide yes)
 				(name "6"
 					(effects
 						(font
@@ -642,10 +637,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 0 -15.24 0)
 				(length 5.08)
-				(hide yes)
 				(name "7"
 					(effects
 						(font
